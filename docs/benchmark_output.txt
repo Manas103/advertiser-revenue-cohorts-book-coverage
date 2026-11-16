@@ -1,0 +1,39 @@
+=== Generation ===
+4320000 advertiser-month rows, 120000 advertisers, 36 months, generated in 0.37s
+size_tier
+Small    3804084
+Large     515916
+
+=== Revenue bridge (0.63s) ===
+new_dollars            1.440773e+08
+expansion_dollars      7.707949e+08
+contraction_dollars    5.098513e+08
+churn_dollars          9.195039e+07
+
+=== Net revenue retention (trailing 12 months) ===
+Large: 112.29%
+Small: 84.89%
+
+=== Propensity model (1.47s to build 1440000 quarter rows) ===
+quarter 9 (holdout): top-decile expansion-dollar share 60.36%
+quarter 10 (holdout): top-decile expansion-dollar share 58.89%
+quarter 11 (holdout): top-decile expansion-dollar share 58.20%
+average holdout top-decile expansion-dollar share: 59.15%
+
+=== Book coverage ===
+active accounts: 88280, owners: 220
+book-potential Gini before rebalance: 0.4174
+accounts moved: 13242 of 88280 (85.00% kept their owner)
+book-potential Gini after rebalance: 0.2307
+
+Excel pack written to C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\advertiser-revenue-cohorts-book-coverage\data\revenue_cohorts_report_pack.xlsx (7220 bytes)
+
+=== Claims summary ===
+36 months of simulated spend: 36
+120,000 advertisers: 120000
+decomposition into new/expansion/contraction/churn dollars: new $144,077,264.04, expansion $770,794,915.49, contraction $509,851,287.41, churn $91,950,392.95
+net revenue retention large: 112.29%
+net revenue retention small: 84.89%
+propensity top decile holds: 59.15% of next-quarter expansion dollars
+book-potential imbalance Gini: 0.4174 to 0.2307
+accounts that kept their owner: 85.00%

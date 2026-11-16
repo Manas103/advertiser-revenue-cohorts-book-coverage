@@ -1,0 +1,29 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.4.2, pluggy-1.7.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\advertiser-revenue-cohorts-book-coverage\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+collecting ... collected 20 items
+
+tests\test_book_coverage.py::test_book_potential_is_score_times_spend PASSED [  5%]
+tests\test_book_coverage.py::test_rebalance_respects_the_move_budget PASSED [ 10%]
+tests\test_book_coverage.py::test_rebalance_reduces_or_holds_gini_never_increases_it PASSED [ 15%]
+tests\test_book_coverage.py::test_every_account_is_assigned_to_exactly_one_owner_after_rebalance PASSED [ 20%]
+tests\test_bridge.py::test_bridge_buckets_match_hand_computed_fixture PASSED [ 25%]
+tests\test_bridge.py::test_month_zero_is_never_scored PASSED             [ 30%]
+tests\test_bridge.py::test_flat_spend_contributes_to_no_bucket PASSED    [ 35%]
+tests\test_metrics.py::test_gini_zero_for_perfect_equality PASSED        [ 40%]
+tests\test_metrics.py::test_gini_matches_hand_computed_value PASSED      [ 45%]
+tests\test_metrics.py::test_gini_is_zero_for_all_zero_input PASSED       [ 50%]
+tests\test_metrics.py::test_gini_increases_with_more_inequality PASSED   [ 55%]
+tests\test_propensity.py::test_model_trains_and_scores_are_bounded PASSED [ 60%]
+tests\test_propensity.py::test_top_decile_concentration_exceeds_random_baseline PASSED [ 65%]
+tests\test_propensity.py::test_top_decile_share_is_between_zero_and_one PASSED [ 70%]
+tests\test_retention.py::test_nrr_hand_computed_excludes_new_logos PASSED [ 75%]
+tests\test_simulate.py::test_generates_exact_universe_size PASSED        [ 80%]
+tests\test_simulate.py::test_is_deterministic_for_fixed_seed PASSED      [ 85%]
+tests\test_simulate.py::test_spend_is_never_negative PASSED              [ 90%]
+tests\test_simulate.py::test_churned_advertisers_stay_at_zero PASSED     [ 95%]
+tests\test_simulate.py::test_advertisers_before_start_month_have_zero_spend PASSED [100%]
+
+============================= 20 passed in 8.26s ==============================
